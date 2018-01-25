@@ -116,7 +116,7 @@ export default class App extends Component<{}> {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent:'center',
+    justifyContent:'flex-start',
     alignItems:'center',
     backgroundColor: '#a9d9d9',
   },
@@ -124,6 +124,7 @@ const styles = StyleSheet.create({
 	color: 'white',
 	fontSize: 20,
 	fontWeight: 'bold',
+	marginTop: 50,
 	marginBottom: 50,
 	backgroundColor: '#434343',
 	padding: 10 
