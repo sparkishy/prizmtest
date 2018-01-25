@@ -61,14 +61,12 @@ export default class App extends Component<{}> {
   expand(){
 	  this.setState({emailTitle: true});
 	  this.refs.inputView.fadeIn();
-	  this.refs.titleText.fadeIn();
 	  this.refs.submitButton.zoomIn();
   }
   
   shrink(){
 	  this.setState({emailTitle: false});
 	  this.refs.inputView.fadeIn();
-	  this.refs.titleText.fadeIn();
 	  this.refs.submitButton.zoomIn();
   }
   
