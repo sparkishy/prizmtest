@@ -100,7 +100,7 @@ export default class App extends Component<{}> {
          onSubmitEditing={() => {this.emailValidation(this.state.text);}}
          onBlur={() => {this.shrink();}}
          blurOnSubmit={true}
-         style={{width: "100%", height: "100%", fontSize: 15}}
+         style={styles.textInput}
 		/>
 		</Animatable.View>
 		<Animatable.View animation="zoomIn" ref="submitButton">
@@ -127,6 +127,11 @@ const styles = StyleSheet.create({
 	marginBottom: 50,
 	backgroundColor: '#434343',
 	padding: 10 
+  },
+  textInput: {
+	  width: "100%", 
+	  height: "100%", 
+	  fontSize: 15
   },
   emailTitle: {
 	color: 'black',
