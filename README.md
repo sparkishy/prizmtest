@@ -16,6 +16,7 @@
 2. Run Build for either OS
   * for iOS
     * run `react-native run-ios`
+    * if it needs to be tested on the ios device, then it needs xcode with proper team setup for each target in the signing section.
   * for Android
     * Either connect your device or run AVD Manager from Android Studio and choose a suitable device from the list (or create new android virtual device)
     * then run `react-native run-android`
